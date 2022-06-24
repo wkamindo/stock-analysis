@@ -4,7 +4,7 @@
 Upward mobility is the emblem of the American dream. In recent years, the stock market has become a lucrative avenue for both rookies and veterans who hope to increase their wealth. Stock analysis is a vital part of investment planning as changes in the volume traded and yearly return can inform one of future stock performance. The purpose of this project was to create VBA macros that looped through each row of data to calculate the total volume and return percentage of each ticker for a given year. Essential elements of the code include for loops, if-then statements, arrays, and conditional formatting for visual cues.
 
 ## Results
-The yearly returns for 2017 suggest a bull market with only one ticker registering a negative return. 2018 was quite the opposite with only two tickers registering a positive return. SPWR and ENPH had the largest trading volumes for 2017 and 2018, respectively. The initial code to run the all stocks analysis `Sub AllStocksAnalysis ()` had a run time of more than one second for each year. The refactored code takes 0.125 seconds to run once one inputs the desired year demoed by the provided data from 2017 and 2018:
+The yearly returns for 2017 suggest a bull market with only one ticker registering a negative return. 2018 was quite the opposite with only two tickers registering a positive return. SPWR and ENPH had the largest trading volumes for 2017 and 2018, respectively. The initial code to run the all stocks analysis `Sub AllStocksAnalysis ()` had a run time of more than one second for each year. The refactored code takes 0.125 seconds to run once one inputs the desired year as shown in the images below:
 ![VBA_Challlenge_2017.PNG](VBA_Challlenge_2017.PNG)
 ![VBA_Challlenge_2018.PNG](VBA_Challlenge_2018.PNG)
 
